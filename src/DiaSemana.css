@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'MoreSugar';
+    src: url('./fonts/more-sugar.thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.caixa-fundo {
+    background-color: #ffd144;
+}
+
+.titulo-semana {
+    font-family: 'MoreSugar', sans-serif;
+}
