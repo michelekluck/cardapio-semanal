@@ -2,6 +2,8 @@ import './App.css';
 import logo from './assets/logo_mommys.png' 
 import DiaSemana from './DiaSemana.jsx'
 
+
+
 function App() {
   return (
     <div>
@@ -10,7 +12,11 @@ function App() {
         <img src={logo} alt="Logo" className='logo' />
       </header>
      </div>
-     <DiaSemana />
+      <div className='semanas'>
+        <DiaSemana />
+        <DiaSemana />
+      </div>
+     
     </div>
   );
 }

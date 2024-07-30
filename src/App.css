@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+:root{
+  --primary-color: 255, 209, 68;
+  --secundary-color: #861800;
+}
+
 body {
   background-color: #fff2e1;
 }
@@ -13,6 +18,14 @@ body {
   text-align: center;
 }
 
-.more-sugar-font {
-  font-family: 'MoreSugar', sans-serif;
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.semanas {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
 }

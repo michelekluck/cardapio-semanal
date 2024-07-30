@@ -6,10 +6,27 @@
     font-style: normal;
   }
 
-.caixa-fundo {
-    background-color: #ffd144;
+.caixa-semana {
+    background-color: rgba(var(--primary-color), 0.43);
+    width: 500px;
+    height: 200px;
+    border-radius: 90px;
+    margin: 0 auto;
+    position: relative;
+
 }
 
 .titulo-semana {
-    font-family: 'MoreSugar', sans-serif;
+    font-family: 'MoreSugar';
+    color: #861800;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.descricao {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
 }
