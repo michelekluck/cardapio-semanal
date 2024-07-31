@@ -1,13 +1,14 @@
 
+import React from 'react'
 import './DiaSemana.css'
 
-function DiaSemana() {
+const DiaSemana = ({ day, menu }) => {
     return (
-        <div className="caixa-semana">
-            <h2 className="titulo-semana">Segunda-Feira</h2>
-            <p className='descricao'>Arroz, feijão, frango grelhado (filé de frango) e vagem a vapor.</p>
+        <div className='caixa-semana'>
+            <h2 className='titulo-semana'>{day}</h2>
+            <p>{menu}</p>
         </div>
-    )
-}
+    );
+};
 
 export default DiaSemana;
