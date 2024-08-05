@@ -15,15 +15,16 @@ function App() {
   ]);
 
   // função para atualizar o cardapio
-  const atualizarCardapio = () => {
-    const novoCardapio = [
+  const atualizarCardapio = () => { // arrow function
+    const novoCardapio = [ // variavel
+      // array de objetos
       { day:"Segunda-Feira", menu:"Arroz, feijão"},
       { day:"Terça-feira", menu:"Arroz, strogonoff de frango "},
       { day:"Quarta-feira", menu:"Arroz, feijão"},
       { day:"quinta-feira", menu:"Arroz, macarrão com molho de tomate"},
       { day:"sexta-feira", menu:"Arroz, carne em cubos"}
     ];
-    setSemanaMenu(novoCardapio);
+    setSemanaMenu(novoCardapio); // função setSemanaMenu é chamada com novoCardapio como argumento
   }
 
   // simulação para atualização semanal do cardapio
